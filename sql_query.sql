@@ -1,5 +1,7 @@
+# Query to create worker database
 USE worker;
 
+# Query to create Employee table
 CREATE TABLE Employee (
   emp_no int,
   first_name varchar(25),
@@ -13,13 +15,14 @@ CREATE TABLE Employee (
 
 describe Employee;
 
+# Query to insert Employee records
 INSERT INTO Employee (emp_no, first_name, last_name, email, department, salary, join_date)
 VALUES (1, 'Selvi', 'Jayaraman', 'selvijayaraman@guvi.com', 'Technical', '30000', '2019-07-09');
 
-
+# Query to fetch Employee records
 SELECT * FROM Employee;
 
-
+# Inserting multiple records into Employee table
 INSERT INTO Employee (emp_no, first_name, last_name, email, department, salary, join_date)
 VALUES (2, 'Ram', 'Sundar', 'ram@gmail.com', 'Technical', '35000', '2018-08-05'),
 (3, 'Alex ', 'George', 'alexgeorge@guvi.com', 'Finance', '20000', '2016-11-12'),
