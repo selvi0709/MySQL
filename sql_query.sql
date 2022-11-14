@@ -1,4 +1,5 @@
 # Query to create worker database
+CREATE DATABASE worker;
 USE worker;
 
 # Query to create Employee table
